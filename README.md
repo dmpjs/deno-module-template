@@ -4,7 +4,7 @@
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
 </p>
 
-Provides a GitHub repository template for deno module, using GitHub actions.
+Provides a GitHub repository template for a deno module, using GitHub actions.
 
 ## Installation
 
