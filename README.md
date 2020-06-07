@@ -1,7 +1,17 @@
 <h1 align="center">Deno module template</h1>
 <p align="center">
-    <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square"></a>
-    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
+    <a href="https://github.com/dmpjs/deno-module-template/releases">
+        <img src="https://img.shields.io/github/release/dmpjs/deno-module-template.svg?color=bright_green&label=latest&style=flat-square">
+    </a>
+    <a href="https://github.com/dmpjs/deno-module-template/actions">
+        <img src="https://img.shields.io/github/workflow/status/dmpjs/deno-module-template/master?label=ci&style=flat-square">
+    </a>
+    <a href="https://github.com/semantic-release/semantic-release">
+        <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square">
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square">
+    </a>
 </p>
 
 Provides a GitHub repository template for a deno module, using GitHub actions.
