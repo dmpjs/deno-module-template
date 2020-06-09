@@ -23,9 +23,9 @@ Provides a GitHub repository template for a deno module, using GitHub actions.
 Run
 
 ```
-const { greeting } = "https://raw.githubusercontent.com/dmpjs/deno-module-template/master/mod.ts"; // import from github as raw data
+import { greeting } = "https://raw.githubusercontent.com/dmpjs/deno-module-template/master/mod.ts"; // import from github as raw data
 
-const { greeting } = "https://deno.land/x/deno-module-template/mod.ts"; // If module is uploaded into deno.land
+import { greeting } = "https://deno.land/x/deno-module-template/mod.ts"; // If module is uploaded into deno.land
 ```
 
 ## Usage
