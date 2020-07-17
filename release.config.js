@@ -28,6 +28,40 @@ module.exports = {
             ],
             "countMatches": true,
           },
+          {
+            "files": [
+              "README.md",
+            ],
+            "from": '/v.*/',
+            "to":
+              '/v${nextRelease.version}/',
+            "results": [
+              {
+                "file": "README.md",
+                "hasChanged": true,
+                "numMatches": 1,
+                "numReplacements": 1,
+              },
+            ],
+            "countMatches": true,
+          },
+          {
+            "files": [
+              "README.md",
+            ],
+            "from": '@.*/',
+            "to":
+              '@${nextRelease.version}/',
+            "results": [
+              {
+                "file": "README.md",
+                "hasChanged": true,
+                "numMatches": 1,
+                "numReplacements": 1,
+              },
+            ],
+            "countMatches": true,
+          },
         ],
       },
     ],
