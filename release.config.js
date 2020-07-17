@@ -15,9 +15,9 @@ module.exports = {
             "files": [
               "version.ts",
             ],
-            "from": '"VERSION" = ".*"',
+            "from": 'const VERSION = ".*"',
             "to":
-              '"VERSION" = "${nextRelease.version.replace(/\\.\\w+$/, \'-dev\')}"',
+              'const VERSION = "${nextRelease.version}"',
             "results": [
               {
                 "file": "version.ts",
@@ -43,7 +43,8 @@ module.exports = {
       "@semantic-release/git",
       {
         "assets": [
-          "composer.json",
+          "version.ts",
+          "mod.ts",
           "src/*",
           "UPGRADE.md",
           "LICENSE.md",
