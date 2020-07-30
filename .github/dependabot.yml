@@ -17,4 +17,4 @@ updates:
     open-pull-requests-limit: 10
     package-ecosystem: "github-actions"
     schedule:
-      interval: "live"
+      interval: "daily"
